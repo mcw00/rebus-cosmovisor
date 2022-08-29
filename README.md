@@ -68,7 +68,7 @@ sudo systemctl start rebusd
 
 # Node durumunu kontrol ediyoruz
 ```
-sudo systemctl status junod
+sudo systemctl status rebusd
 ```
 # Logları kontrol ediyorruz:
 ```

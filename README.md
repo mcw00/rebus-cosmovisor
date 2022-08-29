@@ -11,7 +11,7 @@
 >cd $HOME
 
 >```export DAEMON_NAME=rebusd
->```export DAEMON_HOME=$HOME/.rebus
+>export DAEMON_HOME=$HOME/.rebus
 
 >```source ~/.profile
 
@@ -21,7 +21,7 @@
 # Cosmovisor klasörleri yapılandırıyoruz:
 
 >```mkdir -p $DAEMON_HOME/cosmovisor/genesis/bin
->```mkdir -p $DAEMON_HOME/cosmovisor/upgrades
+>mkdir -p $DAEMON_HOME/cosmovisor/upgrades
 
 # Rebus dosyalarını cosmovisor altına taşıyoruz:
 
@@ -31,7 +31,9 @@
 # Servis dosyasını güncelliyoruz
 
 >```sudo nano /etc/systemd/system/rebusd.service
->
+
+ yukarıdaki komut ile rebusd servise dosyasının içine giriyoruz içindeki herşeyi silip aşağıdaki komutları ekliyoruz. Ctrl + X + Y ve Enter ile çıkıyoruz.
+
 >[Unit]
 >Description=Rebus Daemon (cosmovisor)
 >After=network-online.target

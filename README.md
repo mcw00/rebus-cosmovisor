@@ -1,0 +1,2 @@
+# rebus-cosmovisor
+cosmovisor kurulumu

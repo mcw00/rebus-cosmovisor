@@ -11,7 +11,7 @@
 >cd $HOME
 
 >```export DAEMON_NAME=rebusd
->export DAEMON_HOME=$HOME/.rebus
+>```export DAEMON_HOME=$HOME/.rebus
 
 >```source ~/.profile
 

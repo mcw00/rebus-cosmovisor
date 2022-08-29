@@ -77,3 +77,5 @@ journalctl -fu rebusd
 # sorularaınız için:
 
 Rebus Türkiye Grubu: https://t.me/RebusTurkish
+
+# Hadi geçmiş olsun Forklamayı unutmayın!

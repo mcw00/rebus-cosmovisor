@@ -70,7 +70,7 @@ sudo systemctl start rebusd
 ```
 sudo systemctl status rebusd
 ```
-![alt text](https://photos.google.com/u/2/album/AF1QipMvckHDpfU4IcPWZEinGRq1rH4mw9FOwahJU_Cm/photo/AF1QipN7NzOaWi3dyYMnG4MMwevIyBjDwLSK-i4ObWAB)
+![alt text](https://www.hizliresim.com/mhmfyrn)
 
 # Logları kontrol ediyorruz:
 ```

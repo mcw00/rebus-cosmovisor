@@ -1,4 +1,5 @@
 <h1 align="center">rebus-cosmovisor</h1>
+
 ![alt text](https://user-images.githubusercontent.com/101149671/182340706-3eef17b5-f22c-4239-8867-e9f571ba6cac.png)
 
 
@@ -73,3 +74,6 @@ sudo systemctl status junod
 ```
 journalctl -fu rebusd
 ```
+# sorularaınız için:
+
+Rebus Türkiye Grubu: https://t.me/RebusTurkish

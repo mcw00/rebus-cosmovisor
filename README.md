@@ -10,27 +10,27 @@
 >cp cosmovisor/cosmovisor $GOPATH/bin/cosmovisor
 >cd $HOME
 
->```export DAEMON_NAME=rebusd
->```export DAEMON_HOME=$HOME/.rebus
+>export DAEMON_NAME=rebusd
+>export DAEMON_HOME=$HOME/.rebus
 
->```source ~/.profile
+>source ~/.profile
 
 # Node ismini kontrol ediyoruz:
->```echo $DAEMON_NAME
+>echo $DAEMON_NAME
 
 # Cosmovisor klasörleri yapılandırıyoruz:
 
->```mkdir -p $DAEMON_HOME/cosmovisor/genesis/bin
+>mkdir -p $DAEMON_HOME/cosmovisor/genesis/bin
 >mkdir -p $DAEMON_HOME/cosmovisor/upgrades
 
 # Rebus dosyalarını cosmovisor altına taşıyoruz:
 
->```cp $HOME/go/bin/rebusd $DAEMON_HOME/cosmovisor/genesis/bin
+>cp $HOME/go/bin/rebusd $DAEMON_HOME/cosmovisor/genesis/bin
 
 
 # Servis dosyasını güncelliyoruz
 
->```sudo nano /etc/systemd/system/rebusd.service
+>sudo nano /etc/systemd/system/rebusd.service
 
  yukarıdaki komut ile rebusd servise dosyasının içine giriyoruz içindeki herşeyi silip aşağıdaki komutları ekliyoruz. Ctrl + X + Y ve Enter ile çıkıyoruz.
 
@@ -63,6 +63,6 @@
 
 >sudo systemctl status junod
 
-#Logları kontrol ediyorruz:
+# Logları kontrol ediyorruz:
 
 >journalctl -fu rebusd

@@ -12,19 +12,19 @@
 
 --------------------------
 >```export DAEMON_NAME=rebusd
->export DAEMON_HOME=$HOME/.rebus
+>```export DAEMON_HOME=$HOME/.rebus
 -------------------------
->source ~/.profile
->echo $DAEMON_NAME
+>```source ~/.profile
+>```echo $DAEMON_NAME
 ------------------------------------
->mkdir -p $DAEMON_HOME/cosmovisor/genesis/bin
->mkdir -p $DAEMON_HOME/cosmovisor/upgrades
+>```mkdir -p $DAEMON_HOME/cosmovisor/genesis/bin
+>```mkdir -p $DAEMON_HOME/cosmovisor/upgrades
 -------------------------------------------------------
->cp $HOME/go/bin/rebusd $DAEMON_HOME/cosmovisor/genesis/bin
+>```cp $HOME/go/bin/rebusd $DAEMON_HOME/cosmovisor/genesis/bin
 --------------------------------------------------------
 # Servis dosyasını güncelliyoruz
 
->sudo nano /etc/systemd/system/rebusd.service
+>```sudo nano /etc/systemd/system/rebusd.service
 >
 >[Unit]
 >Description=Rebus Daemon (cosmovisor)

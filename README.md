@@ -30,6 +30,13 @@ mkdir -p $DAEMON_HOME/cosmovisor/genesis/bin
 mkdir -p $DAEMON_HOME/cosmovisor/upgrades
 ```
 # Rebus dosyalarını cosmovisor altına taşıyoruz:
+öncelikle aşağıdaki kodu çalıştırın. Çıkan sonuç aşağıdaki gibi olacak. 
+```
+which rebusd
+```
+![alt text](https://i.hizliresim.com/p3z8tdf.jpg)
+
+# Bir üst komutta çıkan sonuç aşağıdaki koddaki "$HOME/go/bin/rebusd" bundan farklı ise aşağıdaki ile değiştirebilirsiniz.
 ```
 cp $HOME/go/bin/rebusd $DAEMON_HOME/cosmovisor/genesis/bin
 ```
